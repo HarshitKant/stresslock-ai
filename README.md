@@ -1,25 +1,38 @@
-# StressLock AI : The AI That Forces You to Chill
-### Description:
-### A small Python app that watches your stress level through your webcam and locks your laptop if you refuse to take a break. All local, all love.
+# 🌿 StressLock AI  
+> When your laptop cares more about your mental health than you do.  
 
-### Features:
+---
 
-### Detects emotion & posture
+## 🧠 What It Does
+**StressLock AI** uses your webcam to monitor facial expressions and posture.  
+If you look stressed for too long, it literally **locks your laptop** and tells you to *go touch grass*.  
+Because sometimes you won’t listen to yourself, but you *will* listen to Python.
 
-### Locks your laptop if stress > threshold
+---
 
-Works offline
+## ✨ Features
+- 🎭 Real-time emotion detection with **DeepFace**
+- 🧍‍♂️ Posture tracking using **MediaPipe**
+- 🔒 Auto-lock your screen when stress > 40%
+- 🔔 Fun notifications and voice reminders
+- 🧘‍♀️ All processing done **locally** (no data leaves your machine)
+- 🎲 Randomized checks to keep you honest  
 
-Randomized checks for realism
+---
 
-Configurable sensitivity
+## 🚀 Quick Start
 
-Usage:
+```bash
+# Clone the repo
+git clone https://github.com/HarshitKant/stresslock-ai.git
+cd stresslock-ai
 
+# Set up virtual environment (recommended)
+python3 -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
+
+# Install dependencies
 pip install -r requirements.txt
+
+# Run it
 python main.py
-
-
-Disclaimer:
-No face data leaves your machine.
-If you get locked out mid-meeting, don’t blame the grass.
